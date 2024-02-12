@@ -3,12 +3,23 @@
 
 <head> 
     <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title> 
 </head> 
 
-<body> 
-    <h1>Dayna Clare</h1> 
-    <p>Write a short paragraph about yourself here.</p> 
+<body>     
+    <div> 
+        <h1>🌿🌱 Dayna Clare 🌱🍃</h1> 
+        <p>I am a 20 year old Information Technology major that goes 
+            the Western Jamaica Campus. I like to read and find coding,
+            art, languages and psychology fascinating. I would consider myself 
+            to be an amibivert, but lean a bit more to introversion. I look 
+            forward to building bigger, better, more aesthetic websites 
+            with Web Development 2.
+        </p>     
+        <img src="{{ url_for('static', filename='enthused_nahida.png') }}" />
+        <p> Art of Genshin Impact's Nahida By Shiki1230</p>   
+    </div>
 </body> 
 
 </html> 
